@@ -1,0 +1,14 @@
+body {
+  background-color: thistle;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  background: white;
+}
+
+ul {
+  list-style: none;
+
+}
