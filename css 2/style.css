@@ -1,0 +1,20 @@
+img {
+  max-width: 100%;
+}
+
+p{
+  font-size: 30px;
+  color: hotpink;
+  font-family: 'Source Code Pro', monospace;
+  background:lavender;
+  border-radius: 5%;
+  text-shadow: 5px 5px 5px blue;
+  box-shadow: 5px 5px 5px lightgray;
+
+}
+
+.rotate {
+  transform:translateY(10px);
+  color:blue;
+  display: inline-block;
+}
