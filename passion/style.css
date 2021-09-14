@@ -11,11 +11,12 @@ h1{
   text-align: center;
   margin-bottom: 50px;
   color: lightpink;
-  font-family: 'Monoton', cursive;
-  font-size: 75px;
+  font-family:'Monofett', cursive;
+  font-size: 100px;
   background-color: white;
   width: 600px;
   margin: 10px auto 50px;
+  padding-bottom: 20px;
   border-style: dotted;
   border-color: limegreen;
   border-radius: 25px;
