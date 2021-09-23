@@ -1,0 +1,47 @@
+img {
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
+
+.container {
+  background: lightsteelblue;
+  display:flex;
+  height: 100vh;
+}
+
+.sidebar1 {
+  background: palegreen;
+  width:100%;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.row-item {
+  background: seashell;
+  width: 100%;
+}
+
+.sidebar2 {
+  background: lavender;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  padding: 20px;
+}
+
+.col-item {
+  background: pink;
+  width: 100px;
+  height:100px;
+}
