@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  margin: 0px;
+  border: 0;
+}
+
+html {
+  background-image: linear-gradient(rgb(236, 185, 211),rgb(197, 231, 246));
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  font-size: 0px;
+}
+
+.top {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top:30%;
+  right: 20px;
+  animation: spin 5s infinite linear;
+}
+
+.journal {
+  position:fixed;
+  bottom:10%;
+  left: 20px;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Source Code Pro', monospace;
+  color: rgb(232, 220, 229);
+}
+
+a {
+  font-size: 20px;
+  color: rgb(232, 220, 229);
+  text-decoration: none;
+}
+
+
+textarea {
+  color: rgb(85, 58, 77);
+  background-color: rgb(232, 220, 229);
+  border-color: white;
+  border-width: 10px;
+  font-family: 'Source Code Pro', monospace;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
