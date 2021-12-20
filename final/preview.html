@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>final</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div id="container">
+    <div id="panels">
+      <article>
+        <div class="top">
+              <div class='marquee'>PREVIEW ✿ PREVIEW ✿</div>
+        </div>
+        <div class="middle">
+              <div class="preview">
+                <div class="pause"><img src="img/pause.png"></div>
+                <div class="play"><img src="img/play.png"></div>
+                <div class="skip"><img src="img/skip.png"></div>
+                </div>
+            </div>
+        <div class="bottom">
+
+              <p>Preview your new playlist and save it to your Spotify if you like it!</p>
+
+              <footer>
+                <a href="duration.html"><button class="left">back</button></a>
+                <button onclick="save()" onclick="createPlaylist" class="right">save</button>
+              </footer>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+      <script src="jquery-3.6.0.min.js"></script>
+      <script src="jquery.marquee.min.js"></script>
+      <script src="functions.js"></script>
+      <script src="web-api-auth-examples-master/implicit_grant/app.js"></script>
+  </body>
+</html>
