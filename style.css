@@ -1,14 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
-  background-color: thistle;
+  text-align: center;
+  background-image: radial-gradient(lavender,pink);
+  height: 100vh;
+  color: rgb(255, 0, 219);
+  font-family: dotgothic16, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-  background: white;
+h1{
+  font-size: 100px;
+
 }
 
-ul {
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.exercises {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+li {
   list-style: none;
+  margin:15px;
+  font-size: 30px;
 
+}
+
+a{
+  color: rgb(255, 0, 219);
+  text-decoration: none;
+  background-color: rgba(255,255,255,.5);
+  padding: 5px 10px;
+  border-radius: 10px;
 }

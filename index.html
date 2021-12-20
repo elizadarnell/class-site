@@ -3,13 +3,34 @@
 <head>
   <title>eliza's class site</title>
   <link rel="stylesheet" href="style.css">
+
+  <script>
+  (function(d) {
+    var config = {
+      kitId: 'vwl6tcn',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
 </head>
 <body>
-  <h1>Eliza</h1>
-  <ul>
-    <li><a href="first-site/index.html"> First Site</a></li>
-    <li><a href="passion/index.html"> Passion Site</a></li>
-    <li><a href="flexbox-exercise/index.html"> Flexbox exercise</a></li>
-  </ul>
+  <h1>✿ ELIZA ✿</h1>
+  <h2>projects</h2>
+  <div class="projects">
+    <li><a href="passion/index.html"> passion </a></li>
+    <li><a href="screensaver/index.html"> screensaver</a></li>
+    <li><a href="homepage/index.html"> homepage</a></li>
+    <li><a href="aura/index.html">aura</a></li>
+    <li><a href="final/index.html">final</a></li>
+  </div>
+  <h2>exercises</h2>
+  <div class="exercises">
+    <li><a href="flexbox-exercise/index.html"> flexbox exercise</a></li>
+    <li><a href="javascript-exercise/index.html"> javascript exercise</a></li>
+  </div>
+
 </body>
 </html>
